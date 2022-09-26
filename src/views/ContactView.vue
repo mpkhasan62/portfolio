@@ -28,8 +28,7 @@
         <div class="info flex flex-col justify-between md:mb-8">
           <div>
             <p class="text-3xl leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue
-              libero eleifend ullamcorper vestibulum.
+              I'm trying to solve and learn all Graphics & UI/UX Design problems and try to adapt your valuable feedback.
             </p>
           </div>
           <div class="grid grid-cols-2 gap-2">
@@ -43,8 +42,8 @@
                   />
                 </div>
               </div>
-              <h3 class="text-xl my-1">Email Me</h3>
-              <h4 class="text-sm">0031 588 9581</h4>
+              <h3 class="text-xl my-1">Call Me</h3>
+              <h4 class="text-sm">+880 01688 799 146</h4>
               <h4 class="text-default">(WhatsApp)</h4>
             </div>
             <div
@@ -68,34 +67,34 @@
                 </div>
               </div>
               <h3 class="text-xl my-1">Email Me</h3>
-              <h4 class="text-sm">youremail@gmail.com</h4>
+              <h4 class="text-sm">mpkhasan62@gmail.com</h4>
             </div>
           </div>
         </div>
         <div class="form p-4 rounded md:mb-8">
-          <h1>Send Me a Message</h1>
-          <div class="form-group my-2">
+          <h1>Send Me Message</h1>
+          <div class="form-group my-4">
             <input
               type="text"
               class="w-full p-2 border rounded"
               placeholder="Full Name *"
             />
           </div>
-          <div class="form-group my-2">
+          <div class="form-group my-4">
             <input
               type="text"
               class="w-full p-2 border rounded"
               placeholder="E-mail *"
             />
           </div>
-          <div class="form-group my-2">
+          <div class="form-group my-4">
             <input
               type="text"
               class="w-full p-2 border rounded"
               placeholder="Subject"
             />
           </div>
-          <div class="form-group my-2 rounded">
+          <div class="form-group my-4 rounded">
             <textarea
               name=""
               id=""
@@ -106,7 +105,7 @@
             ></textarea>
           </div>
           <button class="btn w-full text-black py-2 rounded">
-            Submit Message
+            <b>Submit Message</b>
           </button>
         </div>
       </div>
@@ -126,7 +125,7 @@ export default {
     return {
       title: "Contact Me",
       subHeading:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue libero eleifend ullamcorper vestibulum. velit enim risus purus eu molestie lobortis pellentesque.",
+        "If you need any kinds of design related work and advice so please just knock me.",
     };
   },
 };
