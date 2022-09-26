@@ -8,7 +8,7 @@
 
       <div class="about-me flex mt-10 space-x-8">
         <div class="about-me-image w-1/2">
-          <img src="../assets/img/image.svg" alt="Image Not Found" />
+          <img src="../assets/img/profile.svg" alt="Image Not Found" />
         </div>
         <div class="about-me-details w-1/2 flex justify-content items-center">
           <div>
@@ -18,10 +18,10 @@
             </h2>
             <div class="mb-10 text-md">
               <p class="mb-5">
-                Hello there! My name is <b>Md. Parvez Khan.</b> I am a UI/UX Designer, and i'm very passionate and dedicated to my work.
+                Hello there! My name is <b>Md. Parvez Khan.</b> I am a <b>UI/UX Designer</b>, and i'm very passionate and dedicated to my work.
               </p>
               <p>
-                With 3.5 years experience as a professional a UI/UX Designer, I have acquired skills and knowledge necessary to make your project a success.
+                With <b>3.5 years</b> experience as a professional a UI/UX Designer, I have acquired skills and knowledge necessary to make your project a success.
               </p>
             </div>
             <div class="about-button w-3/4 flex justify-between">
