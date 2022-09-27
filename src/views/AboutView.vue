@@ -35,7 +35,7 @@
       <div class="experience mb-20">
         <SectionTitle title="Experience" />
         <SectionSubTitle
-          subTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue libero eleifend ullamcorper vestibulum. velit enim risus purus eu molestie lobortis pellentesque."
+          subTitle="I have been running my design professional career for 3.5 years. Here are of my experiences in 3.5 years."
         />
 
         <ExperienceList :experiences="experiences" />
@@ -44,11 +44,23 @@
       <div class="personal-projects mb-20">
         <SectionTitle title="Personal Projects" />
         <SectionSubTitle
-          subTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue libero eleifend ullamcorper vestibulum. velit enim risus purus eu molestie lobortis pellentesque."
+          subTitle="I shared some of my design works here. which i made is my design careers."
         />
 
         <PersonalProjectList :projects="projects" />
       </div>
+
+
+      <div class="personal-projects mb-20">
+        <SectionTitle title="Certifications" />
+        <SectionSubTitle
+          subTitle="I shared some of my achievements here."
+        />
+
+        <CertificateList :projects="certificate" />
+      </div>
+
+      
     </div>
   </div>
 </template>
@@ -61,6 +73,7 @@ import SectionTitle from "../components/Helper/SectionTitle.vue";
 import SectionSubTitle from "../components/Helper/SectionSubTitle.vue";
 import ExperienceList from "../components/Experiences/ExperienceList.vue";
 import PersonalProjectList from "../components/PersonalProject/PersonalProjectList.vue";
+import CertificateList from "../components/Certification/CertificatetList.vue";
 export default {
   components: {
     PageTitle,
@@ -70,6 +83,7 @@ export default {
     SectionSubTitle,
     ExperienceList,
     PersonalProjectList,
+    CertificateList
   },
   data() {
     return {
@@ -275,6 +289,54 @@ export default {
           ],
         },
       ],
+
+      certificate: [
+      {
+          id: 1,
+          date: "09/2020 - 11/2020",
+          projectInfo: {
+            projectName: "Graphic Design",
+            position: "Learning and Earning",
+            website:  "http://ledp.ictd.gov.bd/",
+          },
+          projectDetails: [
+            {
+              id: 1,
+              title:
+                "Result: Received 1st class.",
+            },
+            {
+              id: 2,
+              title:
+                "It's my 2 months short course. Here i learned Graphics (Printer design work, User interface design).",
+            },
+          ],
+        },
+
+        {
+          id: 1,
+          date: "01/2018 - 12/2018",
+          projectInfo: {
+            projectName: "Graphic & Web Design",
+            position: "Computer",
+            website: "https://www.distbd.org/",
+          },
+          projectDetails: [
+            {
+              id: 1,
+              title:
+                "Result: Received 2nd class.",
+            },
+            {
+              id: 2,
+              title:
+                "It's my 1 year diploma course. Here i studied on computer department and learned 1. Graphics (User Interface Design, User Experience Design, Graphics Elements. 2. Web Design HTML, CSS.",
+            },
+          ],
+        },
+      ],
+
+      
     };
   },
 };
